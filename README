@@ -1,4 +1,14 @@
-# Introduction
+# Out-of-Distribution Detection for Food-101 Classification
+ Advanced OOD detection system combining Energy, Mahalanobis, Gradient, and CORES methods for reliable food classification
+
+## Project Overview
+**Objective**: Detect out-of-distribution inputs in a Food-101 classifier using multi-method fusion.
+
+*Key Features**:
+- ✅ 4 OOD detection methods with score fusion
+- ✅ 84.1% test accuracy on Food-101
+- ✅ 96% AUROC on SVHN as OOD
+- ✅ Progressive training strategy
 
 # Datasets
 - To install the **Food 101** dataset we downloaded and unzipped the folder present at the link (https://www.kaggle.com/datasets/dansbecker/food-101) offered in the project presentation
