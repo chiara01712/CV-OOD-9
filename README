@@ -6,9 +6,8 @@
 
 *Key Features**:
 - ✅ 4 OOD detection methods with score fusion
-- ✅ 84.1% test accuracy on Food-101
-- ✅ 96% AUROC on SVHN as OOD
-- ✅ Progressive training strategy
+- ✅ 84.1% val accuracy on Food-101 ?
+- ✅ 96% AUROC on SVHN as OOD ?
 
 # Datasets
 - To install the **Food 101** dataset we downloaded and unzipped the folder present at the link (https://www.kaggle.com/datasets/dansbecker/food-101) offered in the project presentation
@@ -17,3 +16,15 @@
   - https://www.robots.ox.ac.uk/~vgg/data/dtd/ (DTD)
   - http://places2.csail.mit.edu/index.html (Places365)
   - https://www.kaggle.com/datasets/stanfordu/street-view-house-numbers (SVHN)
+
+# Training
+```
+python src/train.py --image_size 224 --batch_size 64
+```
+
+# Evaluation
+```
+python src/evaluate.py \
+    --model_path models/efficientnetv2_food101.pth \
+    --ood_dataset SVHN
+```
