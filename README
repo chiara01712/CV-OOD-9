@@ -17,14 +17,11 @@
   - http://places2.csail.mit.edu/index.html (Places365)
   - https://www.kaggle.com/datasets/stanfordu/street-view-house-numbers (SVHN)
 
-# Training
-```
-python src/train.py --image_size 224 --batch_size 64
-```
+globals.py: All configuration constants
+data.py: Dataset and transform-related code
+network.py: Model architecture definitions
+train.py: Training loop and main execution
+evaluation.py: OOD detection metrics
+utils.py: Helper functions and plotting
 
-# Evaluation
-```
-python src/evaluate.py \
-    --model_path models/efficientnetv2_food101.pth \
-    --ood_dataset SVHN
-```
+
