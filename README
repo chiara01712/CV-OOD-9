@@ -3,4 +3,7 @@
 # Datasets
 - To install the **Food 101** dataset we downloaded and unzipped the folder present at the link (https://www.kaggle.com/datasets/dansbecker/food-101) offered in the project presentation
 - To install the OOD datasets: **SVHN**, **DTD**, **CIFAR10** and **Places365** we used the APIs in the torchvision.datasets module to get them but they can be found at:
-  - 
+  - https://www.cs.toronto.edu/~kriz/cifar.html (CIFAR10)
+  - https://www.robots.ox.ac.uk/~vgg/data/dtd/ (DTD)
+  - http://places2.csail.mit.edu/index.html (Places365)
+  - https://www.kaggle.com/datasets/stanfordu/street-view-house-numbers (SVHN)
